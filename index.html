@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="packed.el : Emacs package management utilities" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>packed.el</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tarsius/packed">View on GitHub</a>
+
+          <h1 id="project_title">packed.el</h1>
+          <h2 id="project_tagline">Emacs package management utilities</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tarsius/packed/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tarsius/packed/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>This package provides some package manager agnostic utilities to work with Emacs packages.  As far as <code>packed</code> is concerned packages are collections of Emacs Lisp libraries that are stored in a dedicated directory such as a vcs repository.</p>
+
+<p>Features include determining a package's libraries, "main" library, <code>load-path</code>, autoload file and <code>info-path</code>. It can update <code>loaddefs.el</code> and <em>will</em> implement substitutes for <code>byte-recompile-directory</code>.</p>
+
+<h3>Status</h3>
+
+<p>This is a pre-release.  Version <code>1.1.0</code> (not <code>1.0.0</code>) will be the first stable release.  This is inspired by how Emacs versions are numbered.</p>
+
+<p>Most of the existing code has been extracted from <a href="http://tarsius.github.com/auto-compile"><code>auto-compile</code></a> so the parts that are used by that package are more feature complete than the rest. <code>packed</code> is also used by the (unreleased) package <em>tracker</em> <code>epkg</code> which uses it for the package <em>managment</em> part of what it does.  Unfortunatly the <em>byte compiling</em> part is not yet implemented.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">packed.el maintained by <a href="https://github.com/tarsius">tarsius</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
